@@ -93,11 +93,7 @@ val progressBar = findViewById<ProgressBar>(R.id.progressBar)
         MySingleton.getInstance(this).addToRequestQueue(jsonObjectRequest)
 
     }
-    private fun nextMeme(){
-        binding.nextButton.setOnClickListener{
-            loadMeme()
-        }
-    }
+
 
     private fun shareMeme(){
 
